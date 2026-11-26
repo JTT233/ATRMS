@@ -1,0 +1,17 @@
+{
+  "name": "@equipment/crypto",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "hash-wasm": "^4.13.0",
+    "shamir-secret-sharing": "^0.0.4"
+  }
+}

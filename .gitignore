@@ -1,0 +1,21 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.vite/
+coverage/
+
+# 环境与密钥
+.env
+.env.*
+*.pem
+*.key
+
+# 临时与系统文件
+*.log
+.DS_Store
+Thumbs.db
+
+# WorkBuddy 项目数据（非交付物，含本地状态）
+.workbuddy/
+
+# 空目录占位符不产生内容，无需忽略
